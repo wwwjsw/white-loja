@@ -15,6 +15,12 @@
 Comandos para instalação e execução do projeto:
 
 ```terminal
-  npm i // install dependencies
-  npm run dev // run dev server
+  npm i                 // install dependencies
+  npm run dev           // run dev server
+```
+Deploy para gh-pages:
+```terminal
+  npm run build         // build do projeto
+  npm run build-no-ts   // build do projeto sem verificação de erros de tipagem do typescript
+  npm run deploy        // deploy do projeto
 ```
